@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="676e6a49-3a62-4c3c-ac65-3da8200fdc1c" name="Activity1" linkedPackageId="d6f9a713-7349-4e32-b5ee-9d367b1082e3" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="3e3f35f9-0686-4842-9b39-b944008ae2d5">
+      <profileInstance Id="0900f7eb-d60a-460d-bfaa-532f75bd31e7" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9c639fc4-f78f-497f-939f-411e9d1fc9c4">
+      <profileInstance Id="836e97e2-99a3-4d92-95ef-b076604033fd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="6a947d70-4a4a-4a7d-8d5a-392c9c9866ab" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="e8d22851-6382-4161-80ac-7b1078c46488" />
+        <nodes>
+          <opaqueAction Id="9e4dbafd-f748-4e75-81cb-7ff223702a9c" name="Log/Sign in" isLeaf="false">
+            <elementDefinition Id="4d19a9d3-93f0-4629-8269-6ce174191d7f" />
+            <flowNodeTargets>
+              <controlFlow Id="9c9a21ba-2f38-44be-a3bc-42b7198fc9b8" isLeaf="false">
+                <opaqueActionMoniker Id="608cbcb2-eda7-4696-9388-9a2642ec4d4e" LastKnownName="main menu" />
+                <elementDefinition Id="c0af9afc-b55e-4f17-9949-0ca8496027e9" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="c4f33979-c358-45f8-af54-3d5ba523a5c5" name="Initial1" isLeaf="false">
+            <elementDefinition Id="9d356103-0535-47d6-9541-99bfbc66e4eb" />
+            <flowNodeTargets>
+              <controlFlow Id="19536f13-2ab6-4a14-8028-8e470e303727" isLeaf="false">
+                <opaqueActionMoniker Id="9e4dbafd-f748-4e75-81cb-7ff223702a9c" LastKnownName="Log/Sign in" />
+                <elementDefinition Id="3e5b192b-5cc8-4a9b-b35f-8bd5d8ae8deb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="f410a6b3-4158-490d-a949-8e5def559b11" name="input data for 3d-model" isLeaf="false">
+            <elementDefinition Id="886fe5e1-41c0-467d-85f5-7cfd4789be56" />
+            <flowNodeTargets>
+              <controlFlow Id="b14c0163-2115-4a47-943d-170cb4639f91" isLeaf="false">
+                <opaqueActionMoniker Id="9bee17c2-ad9b-4cd5-865d-a4643927ddd1" LastKnownName="viev 3d-model" />
+                <elementDefinition Id="89436d5f-2393-48fe-ace7-8539da16a68f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9bee17c2-ad9b-4cd5-865d-a4643927ddd1" name="viev 3d-model" isLeaf="false">
+            <elementDefinition Id="8ff93d91-c520-4973-bb37-ed27476b404d" />
+            <flowNodeTargets>
+              <controlFlow Id="0d08b6c6-0f32-4e58-bcf7-207d76759d6b" isLeaf="false">
+                <opaqueActionMoniker Id="18c6fd44-28e1-45d9-ae8c-bffad23cf78d" LastKnownName="save" />
+                <elementDefinition Id="6fb8cf26-323f-45f4-a403-37bb49256fdc" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="5c8be533-dc17-477d-857b-4cc7d216fa95" name="change 3d-model" isLeaf="false">
+            <elementDefinition Id="3f36b386-962b-47e7-a7d3-a780d0037fbc" />
+            <flowNodeTargets>
+              <controlFlow Id="44a39043-4914-4146-a89a-4f5be5c7a1b3" isLeaf="false">
+                <opaqueActionMoniker Id="f410a6b3-4158-490d-a949-8e5def559b11" LastKnownName="input data for 3d-model" />
+                <elementDefinition Id="f1ffccaa-0dbf-42ad-90cc-6a57fabdea9f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ba5f99d7-5f9a-4f44-bc9b-445a448f5c1a" name="fitting clothes" isLeaf="false">
+            <elementDefinition Id="f667e5b6-9ea6-41d0-a10a-ce57a71d05c5" />
+            <flowNodeTargets>
+              <controlFlow Id="1baa6726-5e5c-4b52-a02e-ee1fc9dcc8da" isLeaf="false">
+                <decisionNodeMoniker Id="575885a3-48b2-4ebd-8c99-ef3b0b57a0a9" LastKnownName="Decision2" />
+                <elementDefinition Id="ae1b7499-1d1b-4737-90aa-240776eb30a1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="30b6f043-1a53-4154-9bdf-501d56afebec" name="selection from the catalog" isLeaf="false">
+            <elementDefinition Id="2a1e806d-c0ae-4ab9-8812-ea2a0f56d1c8" />
+            <flowNodeTargets>
+              <controlFlow Id="f5024bad-310d-43fc-963d-041478bf457a" isLeaf="false">
+                <opaqueActionMoniker Id="ba5f99d7-5f9a-4f44-bc9b-445a448f5c1a" LastKnownName="fitting clothes" />
+                <elementDefinition Id="a5d66211-a322-4583-acfd-9fda0ea2ef0b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="575885a3-48b2-4ebd-8c99-ef3b0b57a0a9" name="Decision2" isLeaf="false">
+            <elementDefinition Id="e277e622-c8cf-4869-af43-5f72c72895dd" />
+            <flowNodeTargets>
+              <controlFlow Id="74de09e1-bd40-46b7-8694-4ebba92f2e7b" isLeaf="false">
+                <opaqueActionMoniker Id="c09dfb87-9d8f-48fb-a91c-3344f2967eb0" LastKnownName="change selection" />
+                <elementDefinition Id="f981d6f5-5a2d-4956-bf12-96488f9130db" />
+              </controlFlow>
+              <controlFlow Id="4c608b79-b76f-49b7-9c34-a041e4619112" isLeaf="false">
+                <joinNodeMoniker Id="7de5c861-b76e-4652-9a7e-c52ece0b125f" LastKnownName="Join1" />
+                <elementDefinition Id="285d2386-b8f9-4938-ad09-03cceb6d48ba" />
+              </controlFlow>
+              <controlFlow Id="6b3730ad-ed14-4019-b8b6-708736103278" isLeaf="false">
+                <opaqueActionMoniker Id="8571696f-9603-4871-b50b-f7d9ac6ded88" LastKnownName="order of clothes" />
+                <elementDefinition Id="f4d66923-9148-4c5a-82ac-1dc2a24f343f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="c09dfb87-9d8f-48fb-a91c-3344f2967eb0" name="change selection" isLeaf="false">
+            <elementDefinition Id="1b7fad62-3d2b-48dd-b45f-6d32fe5f2c7f" />
+            <flowNodeTargets>
+              <controlFlow Id="4fea6efb-9005-4a3a-8bc8-3977f4bd2785" isLeaf="false">
+                <opaqueActionMoniker Id="30b6f043-1a53-4154-9bdf-501d56afebec" LastKnownName="selection from the catalog" />
+                <elementDefinition Id="ae2815ae-c460-4a56-bed8-8e4fa4def013" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8571696f-9603-4871-b50b-f7d9ac6ded88" name="order of clothes" isLeaf="false">
+            <elementDefinition Id="9bf696ed-2b01-45d2-95cf-0794ba127367" />
+            <flowNodeTargets>
+              <controlFlow Id="be987cb9-7728-4a8a-beb0-15817cff22bc" isLeaf="false">
+                <activityFinalNodeMoniker Id="b44a14b1-25e0-4889-aa06-e994a3cb6354" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="ffacb2f0-7c82-4b22-93ce-2f09b8ca97a7" />
+              </controlFlow>
+              <controlFlow Id="74821190-fd1c-4852-8f79-39df70fe582b" isLeaf="false">
+                <joinNodeMoniker Id="7de5c861-b76e-4652-9a7e-c52ece0b125f" LastKnownName="Join1" />
+                <elementDefinition Id="9cc48f08-313b-4643-8310-cc4f50203fb2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="b44a14b1-25e0-4889-aa06-e994a3cb6354" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="e1ec13cb-52e6-44dc-957d-4a53f1bc5caa" />
+          </activityFinalNode>
+          <opaqueAction Id="608cbcb2-eda7-4696-9388-9a2642ec4d4e" name="main menu" isLeaf="false">
+            <elementDefinition Id="7c9a302f-3d83-4eec-b610-1dc732910d07" />
+            <flowNodeTargets>
+              <controlFlow Id="ab0f9f49-c67e-4ddd-b107-5ce0ada74514" isLeaf="false">
+                <decisionNodeMoniker Id="7bc8195a-31e4-4ec0-a40b-3c3495414449" LastKnownName="Decision3" />
+                <elementDefinition Id="fb094730-2ab9-4012-bbea-23745b497c7c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="18c6fd44-28e1-45d9-ae8c-bffad23cf78d" name="save" isLeaf="false">
+            <elementDefinition Id="cd82da7d-8c1a-4ae3-8deb-2631f1e0baa9" />
+            <flowNodeTargets>
+              <controlFlow Id="3b0635f1-5ae9-4265-ac1b-fa30e8446bba" isLeaf="false">
+                <joinNodeMoniker Id="7de5c861-b76e-4652-9a7e-c52ece0b125f" LastKnownName="Join1" />
+                <elementDefinition Id="cb5ef89c-3eee-41b2-b0ab-94e612714ede" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode Id="7de5c861-b76e-4652-9a7e-c52ece0b125f" name="Join1" isLeaf="false">
+            <elementDefinition Id="d87ef37f-186d-40bd-9b80-f34977481f1f" />
+            <flowNodeTargets>
+              <controlFlow Id="10b84f39-eb18-4f77-af59-486db208485c" isLeaf="false">
+                <opaqueActionMoniker Id="608cbcb2-eda7-4696-9388-9a2642ec4d4e" LastKnownName="main menu" />
+                <elementDefinition Id="715e4f26-9bb9-4b12-97ae-aa0d656e62be" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction Id="00759861-c40c-49f8-bd07-895796898c6e" name="create 3d-model" isLeaf="false">
+            <elementDefinition Id="151a1c3c-e479-4491-9ed4-35f5bc82a973" />
+            <flowNodeTargets>
+              <controlFlow Id="7b1ce8d8-8058-454a-8d79-8af625309a1b" isLeaf="false">
+                <opaqueActionMoniker Id="f410a6b3-4158-490d-a949-8e5def559b11" LastKnownName="input data for 3d-model" />
+                <elementDefinition Id="0ed040b6-56e3-4d57-8708-71363ff2fd7d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="a8ecf474-2a72-45f7-a96b-0281fe844ef7" name="Decision1" isLeaf="false">
+            <elementDefinition Id="f47c95da-d447-49d9-a283-25ef6219c754" />
+            <flowNodeTargets>
+              <controlFlow Id="adf05980-03ce-4f6c-aa52-ad6b250a25c1" isLeaf="false">
+                <opaqueActionMoniker Id="5c8be533-dc17-477d-857b-4cc7d216fa95" LastKnownName="change 3d-model" />
+                <elementDefinition Id="fb56e1ee-478b-4c5e-bc6a-c56cd3178bf0" />
+              </controlFlow>
+              <controlFlow Id="40fb9079-1c8c-4ff9-817b-ce94f1c50af8" isLeaf="false">
+                <opaqueActionMoniker Id="00759861-c40c-49f8-bd07-895796898c6e" LastKnownName="create 3d-model" />
+                <elementDefinition Id="7603a93d-0b3c-40a9-9d1c-8967fe7cdd70" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="7bc8195a-31e4-4ec0-a40b-3c3495414449" name="Decision3" isLeaf="false">
+            <elementDefinition Id="6a32190d-792c-49bf-9df1-e9420ea6d46b" />
+            <flowNodeTargets>
+              <controlFlow Id="1b9d9d85-3a00-41ed-ad2a-c115d01f1891" isLeaf="false">
+                <opaqueActionMoniker Id="84509b2b-2931-4185-881f-ebdcc554a6a5" LastKnownName="3d-model" />
+                <elementDefinition Id="f4cd321f-2adf-4e18-a8c3-a2913b896cc7" />
+              </controlFlow>
+              <controlFlow Id="d056d5e0-015d-4ace-8ef7-07a13ef5c3fe" isLeaf="false">
+                <opaqueActionMoniker Id="30b6f043-1a53-4154-9bdf-501d56afebec" LastKnownName="selection from the catalog" />
+                <elementDefinition Id="09fc2d08-39dd-4d24-8eca-0cd014aece13" />
+              </controlFlow>
+              <controlFlow Id="021cb542-d0b5-4358-8def-b7f4c5919121" isLeaf="false">
+                <activityFinalNodeMoniker Id="b44a14b1-25e0-4889-aa06-e994a3cb6354" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="e2a69625-e097-4a93-86a7-1f5f2b0266e5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="84509b2b-2931-4185-881f-ebdcc554a6a5" name="3d-model" isLeaf="false">
+            <elementDefinition Id="42928627-43cf-46fa-a09c-f170c8519d48" />
+            <flowNodeTargets>
+              <controlFlow Id="3a7ce8df-44d1-4f97-a91e-471d03eaa9d9" isLeaf="false">
+                <decisionNodeMoniker Id="a8ecf474-2a72-45f7-a96b-0281fe844ef7" LastKnownName="Decision1" />
+                <elementDefinition Id="565b15bd-33e0-4988-9ae4-2cba30ba4759" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="d6f9a713-7349-4e32-b5ee-9d367b1082e3" name="ModelingProject1">
+    <elementDefinition Id="fa210a9b-fe86-49c0-a977-f4154c3b28e8" />
+  </package>
+</activityRootModel>

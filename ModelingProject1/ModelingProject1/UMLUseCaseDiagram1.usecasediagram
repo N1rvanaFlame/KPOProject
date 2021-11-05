@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" xmlns:dm12="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="404a1ebe-024f-4cdd-9d51-15161a3967ef" name="UMLUseCaseDiagram1" linkedPackageId="d08740c1-0747-4dd1-a827-82fe5d30c136" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="06e6cb6e-5e92-4fa4-a73f-1c67f3c8e317" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5ddcd9c1-911a-4ab0-9e6c-2b26244fbd2d" />
+        <targetEnds>
+          <association Id="6d3f8a91-8086-4635-b725-cc4118ecf269" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Enter User date" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="057f74de-e145-47cf-a283-3c9624a52065" LastKnownName="Enter User date" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11b9c561-3b8d-4669-9df7-91d279d05de8" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="74a3bf98-6fee-4349-adc6-118cf89a1c1c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="952c1316-25cb-402d-af25-d5114dc66c90" name="Enter User date" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="03f8a065-c6d6-4e30-aeb6-f2dda063eefb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e4d84071-67e3-4c6b-8bb4-f62d1b976c1c" />
+          </association>
+          <association Id="bef34508-7bb0-4c4a-a8d0-7a3b1e7ba25e" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Create 3d Model" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9d472170-6770-4926-9f85-8739673237cc" LastKnownName="Create 3d Model" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ca9bf5ad-dcd9-4082-afba-9bb3d1949812" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f55cb78d-b834-4f54-b3c1-e448eedacf4f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c63e9829-fba3-40aa-9cb1-2cc88fd7a949" name="Create 3d Model" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="80f29627-1888-4087-aa40-efb718b625e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fdfc73a4-1586-420e-8b09-f3408456698a" />
+          </association>
+          <association Id="dbe93ad6-1a9c-441f-a719-8fae6542494f" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Selection of clothes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="67aef7ca-6d5d-460f-82f2-49c16fc00476" LastKnownName="Selection of clothes" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6a97f37-3d52-4dd8-b060-c1c0f5aa5c97" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c2953dfe-716b-40a9-a51d-9ad17355c8b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fc7c5ec3-2f24-4695-a4e4-e81d1786c94e" name="Selection of clothes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b9aa909f-60da-4ce7-9770-005a25b998f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d6d99bae-852f-4398-9ab5-e2a31ee564e3" />
+          </association>
+          <association Id="b3b48250-6577-4409-8d22-9f7211725f0d" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Browwing a collections of images" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="16724fec-5861-4012-bb75-0da7ad784cb9" LastKnownName="Browwing a collections of images" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a3f04ab7-99e0-4acb-a9b8-a35fcfeabdc9" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2dded2e3-04d3-41d7-9232-7a3cde4ea24f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc9282c3-076e-4a5e-8173-7926784068bc" name="Browwing a collections of images" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b9f488b6-c0ed-4111-b0fb-cf27aa7f2a9d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5a10a622-d9c3-4d7b-a876-82403768661d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="fc3617ee-b591-4044-9d59-39ad197d76f8" name="Unreg.&#xD;&#xA;User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d0fe263e-0945-4b08-8239-391b119e57ec" />
+        <targetEnds>
+          <association Id="5c5fbce8-07b7-43e4-8823-02158c5823c3" isDerived="false" sourceEndRoleName="Unreg.&#xD;&#xA;User" targetEndRoleName="Apply account" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a1fcd296-b156-4769-9b99-a97dcad7e8a2" LastKnownName="Apply account" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d95de531-737e-4647-86e8-86cbe26000bc" name="Unreg.&#xD;&#xA;User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2bf5ab3a-5edd-408a-a73c-af0c7d849cb5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8dc20066-d59d-4a78-b145-6410d78a497e" name="Apply account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="225316e2-39ec-42de-ac18-e3f5c5b9891f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1cb5711-2e43-4c69-af79-8eedfaefacb4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="147ae1c4-7810-4edd-85b9-6147b1de868f" name="Server" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0cfde892-6ed7-45d1-bec0-0b4a489e4500" />
+        <targetEnds>
+          <association Id="727a6bcc-5a15-4e41-92e3-f059c236c745" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="check permission" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8adc2d36-4d21-41cf-8373-b41b46d273eb" LastKnownName="check permission" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce334fd5-011f-460c-9dda-30dd34b7375d" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cd6f8935-da85-44ba-8b27-7397fc6fbdbc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6c29deb-a917-403b-af9e-55afb88c22f1" name="check permission" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="533de8cd-cd8f-43c8-a37e-c6c202fc0aca" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="04b60aa0-99fb-4c85-9c5d-3ca95bcc4d63" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="67aef7ca-6d5d-460f-82f2-49c16fc00476" name="Selection of clothes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e01a215a-fba8-495b-80d1-08c211e603d2" />
+        <targetEnds>
+          <association Id="d28a4aee-bd14-461b-b9e6-b68065adc389" isDerived="false" sourceEndRoleName="Selection of clothes" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1034d161-1573-48a7-9a53-3a6526f3c084" name="Selection of clothes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b30a8b9d-818f-44c3-ad3b-bf40c3be4526" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3cac3ae6-abe6-4b17-8f3b-6a724e56fec7" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cf6c31bd-6016-4ae7-b814-859fd923ffc6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b6b55ba1-e00e-4abc-bda7-8bc689204f1a" />
+          </association>
+        </targetEnds>
+        <extendedCases>
+          <extend Id="4d5d24c1-6d6b-4d5e-8d01-5582b61a05af">
+            <useCaseMoniker Id="7c7d6a8f-c865-416c-9321-4ef7140b691c" LastKnownName="delete element of cloth" />
+            <elementDefinition Id="d2d37342-19a5-4744-8ba7-a8576bf1356c" />
+          </extend>
+          <extend Id="89ae9bb6-cdb6-4349-9459-73899e9e00c5">
+            <useCaseMoniker Id="dc629a6c-795c-4597-82cf-e673876913d3" LastKnownName="save image" />
+            <elementDefinition Id="65eb641c-cbbd-45f6-8e66-69537ac95862" />
+          </extend>
+          <extend Id="c4dda9ad-5ef7-4ce3-8537-c3a07c303054">
+            <useCaseMoniker Id="120ae4ac-137b-4419-9462-62800c704c26" LastKnownName="Add new clothes" />
+            <elementDefinition Id="bf584ee4-d593-423f-b13a-10c3d8adad28" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="ceab403c-6baa-42b8-a6f6-1e17f6c5c1a3">
+            <useCaseMoniker Id="9d472170-6770-4926-9f85-8739673237cc" LastKnownName="Create 3d Model" />
+            <elementDefinition Id="bae9ca34-26a1-46ca-935c-65ea432a69bd" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="120ae4ac-137b-4419-9462-62800c704c26" name="Add new clothes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e7c8cd4e-7a10-42dd-b800-7a4da07017d7" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7c7d6a8f-c865-416c-9321-4ef7140b691c" name="delete element of cloth" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="092cd9dd-8447-47e8-97e1-e47042cf952a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dc629a6c-795c-4597-82cf-e673876913d3" name="save image" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7799e3e2-8951-4082-888f-5e5f0f41504c" />
+        <targetEnds>
+          <association Id="83f93acb-6499-496f-a18b-dc7c863a5927" isDerived="false" sourceEndRoleName="save image" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e7715119-9e3b-4d12-b1f2-ac2d3cc2bb16" name="save image" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4dede261-a346-4525-9d25-710550958169" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="beffc8d7-1304-42c2-be5e-9e78b36bd79a" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b928e578-2bb3-4eb6-a4cc-efc66398ce0b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="596ecf29-32d1-4653-b9be-b1b71d00c5bf" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="208742d7-c339-469b-be78-1807dd680c24">
+            <useCaseMoniker Id="16724fec-5861-4012-bb75-0da7ad784cb9" LastKnownName="Browwing a collections of images" />
+            <elementDefinition Id="c8b26af2-30df-48f4-bf43-a37d7763a567" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9d472170-6770-4926-9f85-8739673237cc" name="Create 3d Model" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb49fe67-d51d-4fa1-87a7-8dea577b13b5" />
+        <targetEnds>
+          <association Id="35d35664-6fa0-4e33-9072-58eb6ae91a21" isDerived="false" sourceEndRoleName="Create 3d Model" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="96d5c4b7-b0d0-4521-aeac-f921583a4718" name="Create 3d Model" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4fe8c87a-9fc6-421b-b725-d3af17430616" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f994a65-96ab-41b4-8c6c-6eea9aacf36f" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="140e392f-2e5c-4a4a-8e67-c601f780c639" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="723a5269-2dca-4486-9cbc-a796da115936" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="057f74de-e145-47cf-a283-3c9624a52065" name="Enter User date" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cff887f7-cda0-4fa9-8a09-cababa96e938" />
+        <targetEnds>
+          <association Id="82a5ba96-a348-4d39-b542-9915cc380b72" isDerived="false" sourceEndRoleName="Enter User date" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ae66cf46-fe5a-47b2-a78e-e9c4d3aef137" name="Enter User date" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2eee5ea-a22f-4683-bf94-1e3ba13e96bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af520375-ad65-4d95-867b-73941548a0d7" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="445ced6e-7196-4879-8753-c91b9eb34f5b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be28f7be-66ba-4c34-b729-69dba8653823" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="f6d30869-9fa1-4497-ac77-fb16d5f578ac">
+            <useCaseMoniker Id="9d472170-6770-4926-9f85-8739673237cc" LastKnownName="Create 3d Model" />
+            <elementDefinition Id="5a7098de-4e72-49ac-a777-6f4b774353d3" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="16724fec-5861-4012-bb75-0da7ad784cb9" name="Browwing a collections of images" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec285dc2-1a7d-4e7e-aa7d-e016426c546d" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a1fcd296-b156-4769-9b99-a97dcad7e8a2" name="Apply account" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f761e128-e43a-4cc3-8639-caa0fc02de9b" />
+        <targetEnds>
+          <association Id="3efc65aa-9815-4449-b072-2a315c310610" isDerived="false" sourceEndRoleName="Apply account" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5918d30-2187-4b6a-830a-4b546cb61b85" name="Apply account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="70b0e220-751c-4605-bddf-bdbcdb20084e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a86a9824-363f-4809-b376-2106e28f7c1b" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="91ae2e14-a668-4387-addc-641c3597df7b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c9ae9d1c-f501-407b-a109-42f30b352d28" />
+          </association>
+        </targetEnds>
+        <additions>
+          <include Id="92d74976-f55b-4b5f-bfe0-9f6df6b426f2">
+            <useCaseMoniker Id="73e59f49-6814-4430-8f32-fce21ab5ee70" LastKnownName="Sign In" />
+            <elementDefinition Id="827a3ed8-3d43-42e1-836b-0756cf1b4531" />
+          </include>
+          <include Id="5309ba26-e1d0-4f60-b418-076f6222f531">
+            <useCaseMoniker Id="539761ed-6f7a-4cf3-97fd-e6d5d30c253a" LastKnownName="Log in" />
+            <elementDefinition Id="62da2bf2-b1c4-4817-9e22-c6ad722d8616" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="539761ed-6f7a-4cf3-97fd-e6d5d30c253a" name="Log in" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5b0c4561-b0db-434a-865a-62e52f79aea9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="73e59f49-6814-4430-8f32-fce21ab5ee70" name="Sign In" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="91dafdbe-ce0b-47a8-a609-90e60c9a859b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="efa105fb-eef2-46e6-9a2d-9c09d758a565" name="transmission of info" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5f2dfa1b-e250-4215-9737-074faec4501f" />
+        <targetEnds>
+          <association Id="9080ac7a-6606-4e27-b9a4-54e04341bc6a" isDerived="false" sourceEndRoleName="transmission of info" targetEndRoleName="Dress.room" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="321934f6-fd33-4783-88b8-83d07d339cdf" LastKnownName="Dress.room" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17b0bc5e-db37-448f-9504-fc07f7926f26" name="transmission of info" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fcbc5b07-8212-4d98-b2e1-e3cd234ccf8b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="983ff30c-4d38-41c2-8cf3-24c46d70c5c4" name="Dress.room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="035b05e4-1075-4c74-ab43-e41794c88635" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d9495563-804c-423c-9b99-8123ba90ba74" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8adc2d36-4d21-41cf-8373-b41b46d273eb" name="check permission" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ca8022ed-6c45-4701-9ebc-b21c0249dd5b" />
+        <targetEnds>
+          <association Id="90cbe959-a57d-412b-bda0-1e398f126649" isDerived="false" sourceEndRoleName="check permission" targetEndRoleName="transmission of info" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="efa105fb-eef2-46e6-9a2d-9c09d758a565" LastKnownName="transmission of info" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f4397f80-48a0-43d1-8774-872f1dcf259b" name="check permission" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="03fd142d-1de8-4366-9677-afd60faad62b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2b054c19-71f6-4a06-8a81-8341668bf6ed" name="transmission of info" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ddc8a1e-61a1-43a5-b788-4f46bd830252" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c5fab5a1-8a6c-4e79-b7ee-c3130f38a9a1" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="235108bf-0582-4b29-aed1-1dae860897d3" name="submit a request" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7bda686-be8a-4da7-8141-2f7686779cd0" />
+        <targetEnds>
+          <association Id="ef1c138b-adab-4f89-b5bd-1b2f507dad8f" isDerived="false" sourceEndRoleName="submit a request" targetEndRoleName="Server" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="147ae1c4-7810-4edd-85b9-6147b1de868f" LastKnownName="Server" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="decf3070-7357-4cf6-9fc9-4adcd2cd4eb7" name="submit a request" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="97ce01c4-a80f-4c59-af0c-0b9a10219d0d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98de241f-b34e-46f1-bcff-a94f36de1311" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="08828925-d579-4320-946c-595f4b79075f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2e32f5d5-dbc3-49e2-bbfc-894342c124ef" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3a6cb76c-99aa-4e38-a9c5-6ad4126b7c26" name="averag physical date" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9d94377e-cdc8-498c-9a36-3a48dd50818a" />
+        <generalsInternal>
+          <generalization Id="c23bc81a-c913-4e85-9878-154d2e30389d" isSubstitutable="false">
+            <useCaseMoniker Id="235108bf-0582-4b29-aed1-1dae860897d3" LastKnownName="submit a request" />
+            <elementDefinition Id="8517cc6b-e534-4216-9d6a-90377ce9a8d0" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="128697f9-6d4a-4391-a147-cb5ae3e812f7" name="clothes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="63cd9909-a701-45eb-a053-d545afc38e7f" />
+        <generalsInternal>
+          <generalization Id="6f8a7805-ccc8-458d-b2da-ffffc445fca1" isSubstitutable="false">
+            <useCaseMoniker Id="235108bf-0582-4b29-aed1-1dae860897d3" LastKnownName="submit a request" />
+            <elementDefinition Id="47b0e581-9749-4847-aea0-e78a1dcb61fd" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="321934f6-fd33-4783-88b8-83d07d339cdf" name="Dress.room" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="80adf7fc-da43-4c7d-8e86-8470091d2cf2" />
+        <targetEnds>
+          <association Id="445d8a56-0e03-49cb-ade5-65ef3dc9e58f" isDerived="false" sourceEndRoleName="Dress.room" targetEndRoleName="submit a request" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="235108bf-0582-4b29-aed1-1dae860897d3" LastKnownName="submit a request" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="952f126d-d6cc-4791-bbd8-6e3b78f7023a" name="Dress.room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="36615ee3-90e1-40be-8a57-ab7bb26d5e98" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6ba6a6f6-f39c-486b-bd6c-87f290b9c409" name="submit a request" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="43bd91d9-7e2b-443a-a1f0-0821fb5b1c7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8b97540b-09a6-4a71-ad49-7fa627f846b6" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d08740c1-0747-4dd1-a827-82fe5d30c136" name="ModelingProject1">
+    <elementDefinition Id="fa210a9b-fe86-49c0-a977-f4154c3b28e8" />
+    <profileInstances>
+      <packageHasProfileInstances Id="530f3b3c-dd2d-4d08-9afb-2ae2d4402c74">
+        <profileInstance Id="24e098b7-bb53-44c1-a7cc-982beff01387" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c253d199-03c1-4c97-91aa-630dd0784b6e">
+        <profileInstance Id="51b0b973-3109-42a6-b151-98b755ec33d1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
